@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Frontend Mentor | News homepage</title>
+
+      <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+
+  <div class="container">
+      <!-- =============================NAVBAR==================================== -->
+      <div class="menu-container">
+
+        <div class="nav-bar">
+          <a href="#" class="logo">W.</a>
+          <ul class="nav">
+            <li><a href="#home" class="nav-link ">Home</a></li>
+            <li><a href="#new" class="nav-link">New</a></li>
+            <li><a href="#popular" class="nav-link">Popular</a></li>
+            <li><a href="#trending" class="nav-link active">Trending</a></li>
+            <li><a href="#categories" class="nav-link">Categories</a></li>
+          </ul>
+        </div>
+
+        <div class="menuToggle">
+            <img src="assets/images/icon-menu.svg" alt="icon-menu" class="open-menu active">
+            <img src="assets/images/icon-menu-close.svg" alt="icon-menu-close" class="close-menu ">
+        </div>
+  
+      </div>
+      
+        <!-- ================================ HERO SECTION============================== -->
+      <div class="hero">
+        <div class="row">
+          <div class="left-content">
+
+            <picture>
+              <source media="(max-width: 600px)" srcset="assets/images/image-web-3-mobile.jpg" alt="image-web-3-mobile">
+
+              <img src="assets/images/image-web-3-desktop.jpg" alt="image-web-3-desktop" 
+              width="100%">
+            </picture>
+
+              <div class="content-box">
+                <h1 class="title"> The Bright Future of Web 3.0?</h1>
+
+                <div class="more-info">
+                  <small>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+                    But is it really fulfilling its promise?</small>
+
+                    <button class="hero-btn">READ MORE</button>
+                </div>
+
+              </div>
+
+          </div>
+
+          <div class="right-content">
+            <h2 class="header">New</h2>
+
+            <div class="right-content-box">
+
+              <div class="right-details">
+                <h3>Hydrogen VS Electric Cars</h3>
+                <small>Will hydrogen-fueled cars ever catch up to EVs?</small>
+              </div>
+
+              
+              <div class="right-details">
+                <h3 class="active">The Downsides of AI Artistry</h3>
+                <small> What are the possible adverse effects of on-demand AI image generation?</small>
+              </div>
+
+              <div class="right-details">
+                <h3>Is VC Funding Drying Up?</h3>
+                <small>Private funding by VC firms is down 50% YOY. We take a look at what that means.</small>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+     <!-- =====================================MAIN================================= -->
+      <div class="main-container">
+
+        <div class="feature">
+          <img src="assets/images/image-retro-pcs.jpg" alt="" class="feature-img" alt="image-retro-pcs">
+  
+          <div class="feature-content">
+            <h1 class="title">01</h1>
+            <h2 class="sub-title">Reviving Retro PCs</h2>
+            <small class="info"> What happens when old PCs are given modern upgrades?</small>
+          </div>
+         
+        </div>
+  
+        <div class="feature">
+          <img src="assets/images/image-top-laptops.jpg" alt="" class="feature-img" alt="image-top-laptops">
+  
+          <div class="feature-content">
+            <h1 class="title">02</h1>
+            <h2 class="sub-title active">Top 10 Laptops of 2022</h2>
+            <small class="info"> Our best picks for various needs and budgets.</small>
+          </div>
+         
+        </div>
+  
+        <div class="feature">
+          <img src="assets/images/image-gaming-growth.jpg" alt="" class="feature-img" alt="image-gaming-growth">
+  
+          <div class="feature-content">
+            <h1 class="title">03</h1>
+            <h2 class="sub-title">The Growth of Gaming</h2>
+            <small class="info"> How the pandemic has sparked fresh opportunities.</small>
+          </div>
+         
+        </div>
+  
+      </div>
+
+    </div>
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Paks</a>.
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
